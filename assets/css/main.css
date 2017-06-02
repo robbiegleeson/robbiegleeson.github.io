@@ -2588,6 +2588,13 @@
 
 /* Image */
 
+  .profile {
+		height: 150px;
+		width: 150px;
+		border-radius: 50%;
+		display: inline;
+	}
+
 	.image {
 		border-radius: 0.25em;
 		border: 0;
@@ -3875,7 +3882,7 @@
 		@media screen and (max-width: 736px) {
 
 			#sidebar {
-				display: none;
+				/*display: none;*/
 			}
 
 		}
