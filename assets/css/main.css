@@ -3880,11 +3880,12 @@
 		}
 
 		@media screen and (max-width: 736px) {
-
+			#sidebar nav ul {
+				height: auto;
+			}
 			#sidebar {
 				/*display: none;*/
 			}
-
 		}
 
 /* Intro */
