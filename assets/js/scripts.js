@@ -34,6 +34,17 @@ jQuery(function ($) {
         $('#tt-preloader').delay(350).fadeOut('slow');
     });
 
+    $(window).on('load', function () {
+      setTimeout(function(){
+          // This hides the address bar:
+          window.scrollTo(0, 1);
+          console.log('Made it');
+      }, 0);
+    });
+
+
+
+
 
 
 
