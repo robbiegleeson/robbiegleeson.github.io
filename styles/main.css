@@ -3377,6 +3377,7 @@ body {
 
 .bg-primary {
   background-color: #378C3F !important;
+  color: #FFF;
 }
 
 .bg-info {
